@@ -1,6 +1,9 @@
 import os
 from fastapi import FastAPI
+from dotenv import load_dotenv
 import uvicorn
+
+load_dotenv()
 
 app = FastAPI()
 
@@ -12,7 +15,12 @@ def read_root():
 # Route with query parameters
 @app.get("/greet/")
 def greet_user(name: str = "Guest"):
-    return {"message": f"Hello, {name}!"}
+    if os.getenv("VALUE"):
+         
+         return {"message": f"Hello, {name}!"}
+    else:
+        return {"message": f"No env find, {name}!"}
+
 
 # Route with path parameters
 @app.get("/items/{item_id}")
