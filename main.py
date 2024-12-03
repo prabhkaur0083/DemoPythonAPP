@@ -7,7 +7,7 @@ app = FastAPI()
 # Root route
 @app.get("/")
 def read_root():
-    return {"message new": "Welcome to your FastAPI app on Render!"}
+    return {"message new": "Welcome to your FastAPI app on Render! this is my first deployment testing with azure....."}
 
 # Route with query parameters
 @app.get("/greet/")
