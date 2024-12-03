@@ -29,4 +29,4 @@ def create_item(name: str, description: str):
 # Run the app with Render's PORT environment variable
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))  # Default to port 8000 if PORT is not set
-    uvicorn.run(app, host="0.0.0.0", port=port)
+    uvicorn.run(app)
