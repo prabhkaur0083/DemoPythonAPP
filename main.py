@@ -7,7 +7,7 @@ app = FastAPI()
 # Root route
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to your FastAPI app on Render!"}
+    return {"message new": "Welcome to your FastAPI app on Render!"}
 
 # Route with query parameters
 @app.get("/greet/")
