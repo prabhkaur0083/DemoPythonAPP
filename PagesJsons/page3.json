@@ -1,0 +1,909 @@
+{
+    "Data": {
+        "Cards": [
+            {
+                "Title": "CLV to CAC Ratio",
+                "Content": "11.22",
+                "DyamicValue": "6.91",
+                "DynamicVariance": "62.4% 🡱",
+                "DynamicTitle": "Previous Month:",
+                "DynamicColor": "light Green",
+                "visualId": "visual3",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "Jan",
+                            "Feb",
+                            "Mar",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul",
+                            "Aug",
+                            "Sep",
+                            "Oct",
+                            "Nov",
+                            "Dec"
+                        ],
+                        "Yaxis": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            4.29,
+                            6.91,
+                            11.22,
+                            4.69,
+                            7.35,
+                            7.3,
+                            4.19,
+                            5.47,
+                            8.69
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "Payback Period",
+                "Content": "3.21",
+                "DyamicValue": "5.21",
+                "DynamicVariance": "'-38.4% 🡳",
+                "DynamicTitle": "Previous Month:",
+                "DynamicColor": "#F45B89",
+                "visualId": "visual4",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "Feb",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul",
+                            "Aug",
+                            "Sep",
+                            "Oct",
+                            "Nov",
+                            "Dec"
+                        ],
+                        "Yaxis": [
+                            0.0,
+                            8.4,
+                            5.21,
+                            3.21,
+                            7.68,
+                            4.9,
+                            4.93,
+                            8.6,
+                            6.58,
+                            4.14
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "Rose Metric",
+                "Content": "$1.55",
+                "DyamicValue": "$1.29",
+                "DynamicVariance": "19.8% 🡱",
+                "DynamicTitle": "Previous Month:",
+                "DynamicColor": "light Green",
+                "visualId": "visual5",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "Jan",
+                            "Feb",
+                            "Mar",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul",
+                            "Aug",
+                            "Sep",
+                            "Oct",
+                            "Nov",
+                            "Dec"
+                        ],
+                        "Yaxis": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            4.29,
+                            6.91,
+                            11.22,
+                            4.69,
+                            7.35,
+                            7.3,
+                            4.19,
+                            5.47,
+                            8.69
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "Rule of 40",
+                "Content": "118.75%",
+                "DyamicValue": "115.30%",
+                "DynamicVariance": "3% 🡱",
+                "DynamicTitle": "Previous Month:",
+                "DynamicColor": "light Green",
+                "visualId": "visual6",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "Jan",
+                            "Feb",
+                            "Mar",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul",
+                            "Aug",
+                            "Sep",
+                            "Oct",
+                            "Nov",
+                            "Dec"
+                        ],
+                        "Yaxis": [
+                            113.79,
+                            116.2,
+                            126.79,
+                            113.98,
+                            115.3,
+                            118.75,
+                            112.21,
+                            114.18,
+                            110.95,
+                            108.63,
+                            106.46,
+                            110.51
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "Gross Margin",
+                "Content": "70%",
+                "DyamicValue": "83%",
+                "DynamicVariance": "16% 🡱",
+                "DynamicTitle": "Previous Month:",
+                "DynamicColor": "light Green",
+                "visualId": "visual7",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "Jan",
+                            "Feb",
+                            "Mar",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul",
+                            "Aug",
+                            "Sep",
+                            "Oct",
+                            "Nov",
+                            "Dec"
+                        ],
+                        "Yaxis": [
+                            86.0,
+                            84.0,
+                            69.0,
+                            65.0,
+                            90.0,
+                            88.0,
+                            61.0,
+                            66.0,
+                            89.0,
+                            80.0,
+                            73.0,
+                            55.0
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "New Booking Growth",
+                "Content": "38.00%",
+                "DyamicValue": "23.87%",
+                "DynamicVariance": "14.1% 🡱",
+                "DynamicTitle": "Previous Month:",
+                "DynamicColor": "light Green",
+                "visualId": "visual8",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "Jan",
+                            "Feb",
+                            "Mar",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul",
+                            "Aug",
+                            "Sep",
+                            "Oct",
+                            "Nov",
+                            "Dec"
+                        ],
+                        "Yaxis": [
+                            -8.38,
+                            31.39,
+                            97.7,
+                            -35.69,
+                            23.87,
+                            38.0,
+                            -23.1,
+                            30.47,
+                            -11.44,
+                            -18.46,
+                            -15.58,
+                            72.37
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "New Logo Growth",
+                "Content": "11.36%",
+                "DyamicValue": "10%",
+                "DynamicVariance": "1.4% 🡱",
+                "DynamicTitle": "Previous Month:",
+                "DynamicColor": "light Green",
+                "visualId": "visual9",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "Jan",
+                            "Feb",
+                            "Mar",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul",
+                            "Aug",
+                            "Sep",
+                            "Oct",
+                            "Nov",
+                            "Dec"
+                        ],
+                        "Yaxis": [
+                            -3.7,
+                            30.77,
+                            91.18,
+                            -38.46,
+                            10.0,
+                            11.36,
+                            -14.29,
+                            35.71,
+                            -5.26,
+                            -35.19,
+                            14.29,
+                            40.0
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "EBITDA",
+                "Content": "100%",
+                "DyamicValue": "100%",
+                "DynamicVariance": "0% 🡱",
+                "DynamicTitle": "Previous Month:",
+                "DynamicColor": "light Green",
+                "visualId": "visual10",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "Jan",
+                            "Feb",
+                            "Mar",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul",
+                            "Aug",
+                            "Sep",
+                            "Oct",
+                            "Nov",
+                            "Dec"
+                        ],
+                        "Yaxis": [
+                            100.0,
+                            100.0,
+                            100.0,
+                            100.0,
+                            100.0,
+                            100.0,
+                            100.0,
+                            100.0,
+                            100.0,
+                            100.0,
+                            100.0,
+                            100.0
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "G&A as % of Rev",
+                "Content": "3.01%",
+                "DyamicValue": "13.51%",
+                "DynamicVariance": "'-10.5% 🡳",
+                "DynamicTitle": "Previous Month:",
+                "DynamicColor": "#F45B89",
+                "visualId": "visual11",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "Jan",
+                            "Feb",
+                            "Mar",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul",
+                            "Aug",
+                            "Sep",
+                            "Oct",
+                            "Nov",
+                            "Dec"
+                        ],
+                        "Yaxis": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            10.38,
+                            13.51,
+                            3.01,
+                            3.4,
+                            8.77,
+                            5.74,
+                            4.57,
+                            3.56,
+                            3.96
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "R&D as % of Rev",
+                "Content": "0%",
+                "DyamicValue": "0%",
+                "DynamicVariance": "0% 🡱",
+                "DynamicTitle": "Previous Month:",
+                "DynamicColor": "light Green",
+                "visualId": "visual12",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "Jan",
+                            "Feb",
+                            "Mar",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul",
+                            "Aug",
+                            "Sep",
+                            "Oct",
+                            "Nov",
+                            "Dec"
+                        ],
+                        "Yaxis": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "Sales/Marketing as % of Rev",
+                "Content": "-39.82%",
+                "DyamicValue": "-41.34%",
+                "DynamicVariance": "1.5% 🡱",
+                "DynamicTitle": "Previous Month:",
+                "DynamicColor": "#ff726F",
+                "visualId": "visual13",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "Feb",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul",
+                            "Aug",
+                            "Sep",
+                            "Oct",
+                            "Nov",
+                            "Dec"
+                        ],
+                        "Yaxis": [
+                            0.0,
+                            -50.8,
+                            -41.6,
+                            -40.1,
+                            -78.84,
+                            -75.55,
+                            -73.38,
+                            -116.82,
+                            -77.53,
+                            -101.69
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "ARPU",
+                "Content": "$-625.76",
+                "DyamicValue": "$-810.56",
+                "DynamicVariance": "'-22.8% 🡳",
+                "DynamicTitle": "Previous Month:",
+                "DynamicColor": "#F45B89",
+                "visualId": "visual14",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "Jan",
+                            "Feb",
+                            "Mar",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul",
+                            "Aug",
+                            "Sep",
+                            "Oct",
+                            "Nov",
+                            "Dec"
+                        ],
+                        "Yaxis": [
+                            1875.95,
+                            1549.74,
+                            1119.84,
+                            986.88,
+                            805.46,
+                            621.3,
+                            565.94,
+                            416.84,
+                            354.7,
+                            295.44,
+                            281.69,
+                            208.63
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "Gross Dollar Retention",
+                "Content": "96%",
+                "DyamicValue": "93.00%",
+                "DynamicVariance": "4% 🡱",
+                "DynamicTitle": "Previous Month:",
+                "DynamicColor": "#F45B89",
+                "visualId": "visual15",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "Jan",
+                            "Feb",
+                            "Mar",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul",
+                            "Aug",
+                            "Sep",
+                            "Oct",
+                            "Nov",
+                            "Dec"
+                        ],
+                        "Yaxis": [
+                            95.0,
+                            92.0,
+                            98.0,
+                            92.0,
+                            93.0,
+                            92.0,
+                            92.0,
+                            93.0,
+                            99.0,
+                            94.0,
+                            94.0,
+                            94.0
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "Gross Logo Retention",
+                "Content": "99.24%",
+                "DyamicValue": "97.42%",
+                "DynamicVariance": "1.8% 🡱",
+                "DynamicTitle": "Previous Month:",
+                "DynamicColor": "light Green",
+                "visualId": "visual16",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "98.37%",
+                            "98.57%",
+                            "98.77%",
+                            "95.15%",
+                            "97.42%",
+                            "99.24%",
+                            "92.53%",
+                            "98.14%",
+                            "96.12%",
+                            "97.48%",
+                            "93.33%",
+                            "96.42%"
+                        ],
+                        "Yaxis": [
+                            20230100.0,
+                            20230200.0,
+                            20230300.0,
+                            20230400.0,
+                            20230500.0,
+                            20230600.0,
+                            20230700.0,
+                            20230800.0,
+                            20230900.0,
+                            20231000.0,
+                            20231100.0,
+                            20231200.0
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "Net Dollar Retention",
+                "Content": "103.72%",
+                "DyamicValue": "103.37%",
+                "DynamicVariance": "'-1.7% 🡳",
+                "DynamicTitle": "Previous Month:",
+                "DynamicColor": "#F45B89",
+                "visualId": "visual17",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "Jan",
+                            "Feb",
+                            "Mar",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul",
+                            "Aug",
+                            "Sep",
+                            "Oct",
+                            "Nov",
+                            "Dec"
+                        ],
+                        "Yaxis": [
+                            101.84,
+                            103.92,
+                            102.66,
+                            103.57,
+                            106.35,
+                            107.66,
+                            107.13,
+                            107.31,
+                            108.98,
+                            99.61,
+                            104.41,
+                            104.64
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Charts": [
+            {
+                "Type": "PBI_CV_25997FEB_F466_44FA_B562_AC4063283C4C",
+                "Title": "Gross Maring",
+                "Unit": "",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "Jan",
+                            "Feb",
+                            "Mar",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul",
+                            "Aug",
+                            "Sep",
+                            "Oct",
+                            "Nov",
+                            "Dec"
+                        ],
+                        "Yaxis": [
+                            86.0,
+                            84.0,
+                            69.0,
+                            65.0,
+                            90.0,
+                            88.0,
+                            61.0,
+                            66.0,
+                            89.0,
+                            80.0,
+                            73.0,
+                            55.0
+                        ]
+                    }
+                ],
+                "visualId": "visual19"
+            },
+            {
+                "Type": "PBI_CV_25997FEB_F466_44FA_B562_AC4063283C4C",
+                "Title": "Roce Matric",
+                "Unit": "$",
+                "SeriesData": [
+                    {
+                        "Xaxis": [
+                            "Jan",
+                            "Feb",
+                            "Mar",
+                            "Apr",
+                            "May",
+                            "Jun",
+                            "Jul",
+                            "Aug",
+                            "Sep",
+                            "Oct",
+                            "Nov",
+                            "Dec"
+                        ],
+                        "Yaxis": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.64,
+                            1.29,
+                            1.55,
+                            0.88,
+                            1.73,
+                            2.1,
+                            1.09,
+                            2.5,
+                            2.94
+                        ]
+                    }
+                ],
+                "visualId": "visual32"
+            }
+        ],
+        "Tables": [
+            {
+                "Type": "pivotTable",
+                "Title": "Cards Data Table",
+                "Unit": "",
+                "Columns": [
+                    "Group",
+                    "Header",
+                    "_SaaSMetric_Unit",
+                    "_SaaSMetric_DynamicTitle",
+                    "_SaaSMetric_CM",
+                    "_SaaSMetric_PM",
+                    "_SaaSMetric_Var",
+                    "_SaaSMetric_VarCF\r"
+                ],
+                "Rows": [
+                    [
+                        "Efficiency",
+                        "CLV to CAC Ratio",
+                        "#",
+                        "Previous Month:",
+                        "11.21711301608628",
+                        "6.909106564272922",
+                        "62.4% 🡱",
+                        "light Green"
+                    ],
+                    [
+                        "Efficiency",
+                        "Payback Period",
+                        "#",
+                        "Previous Month:",
+                        "3.209381945993856",
+                        "5.210514509380483",
+                        "'-38.4% 🡳",
+                        "#F45B89"
+                    ],
+                    [
+                        "Efficiency",
+                        "Rose Metric",
+                        "$",
+                        "Previous Month:",
+                        "1.549587271658797",
+                        "1.2936513535485719",
+                        "19.8% 🡱",
+                        "light Green"
+                    ],
+                    [
+                        "Efficiency",
+                        "Rule of 40",
+                        "%",
+                        "Previous Month:",
+                        "1.1875129529150614",
+                        "1.1529901074282336",
+                        "3% 🡱",
+                        "light Green"
+                    ],
+                    [
+                        "Growth",
+                        "Gross Margin",
+                        "%",
+                        "Previous Month:",
+                        "0.7000000000000001",
+                        "0.83",
+                        "16% 🡱",
+                        "light Green"
+                    ],
+                    [
+                        "Growth",
+                        "New Booking Growth",
+                        "%",
+                        "Previous Month:",
+                        "0.38001501552166284",
+                        "0.23870946169053997",
+                        "14.1% 🡱",
+                        "light Green"
+                    ],
+                    [
+                        "Growth",
+                        "New Logo Growth",
+                        "%",
+                        "Previous Month:",
+                        "0.11363636363636363",
+                        "0.1",
+                        "1.4% 🡱",
+                        "light Green"
+                    ],
+                    [
+                        "Profit & Opex",
+                        "EBITDA",
+                        "%",
+                        "Previous Month:",
+                        "1",
+                        "1",
+                        "0% 🡱",
+                        "light Green"
+                    ],
+                    [
+                        "Profit & Opex",
+                        "G&A as % of Rev",
+                        "%",
+                        "Previous Month:",
+                        "0.030121668352744917",
+                        "0.135085907478108",
+                        "'-10.5% 🡳",
+                        "#F45B89"
+                    ],
+                    [
+                        "Profit & Opex",
+                        "R&D as % of Rev",
+                        "%",
+                        "Previous Month:",
+                        "0",
+                        "0",
+                        "0% 🡱",
+                        "light Green"
+                    ],
+                    [
+                        "Profit & Opex",
+                        "Sales/Marketing as % of Rev",
+                        "%",
+                        "Previous Month:",
+                        "-0.398173161954455",
+                        "-0.4134284625236348",
+                        "1.5% 🡱",
+                        "#ff726F"
+                    ],
+                    [
+                        "Retention",
+                        "ARPU",
+                        "$",
+                        "Previous Month:",
+                        "-625.7589255884585",
+                        "-810.5640776909721",
+                        "'-22.8% 🡳",
+                        "#F45B89"
+                    ],
+                    [
+                        "Retention",
+                        "Gross Dollar Retention",
+                        "%",
+                        "Previous Month:",
+                        "0.96",
+                        "0.9299999999999998",
+                        "4% 🡱",
+                        "#F45B89"
+                    ],
+                    [
+                        "Retention",
+                        "Gross Logo Retention",
+                        "%",
+                        "Previous Month:",
+                        "0.9923664122137404",
+                        "0.9742120343839542",
+                        "1.8% 🡱",
+                        "light Green"
+                    ],
+                    [
+                        "Retention",
+                        "Net Dollar Retention",
+                        "%",
+                        "Previous Month:",
+                        "1.0372073261066106",
+                        "1.0337362642775754",
+                        "'-1.7% 🡳",
+                        "#F45B89"
+                    ]
+                ],
+                "visualId": "visual18"
+            }
+        ],
+        "Slicer": [
+            {
+                "Id": "54bb96e68274d0e89793",
+                "Title": "Year Slicer",
+                "Options": [
+                    "2021",
+                    "2022",
+                    "2023",
+                    "2024",
+                    ""
+                ],
+                "TableName": "Dates",
+                "ColumnName": "Year",
+                "SelectedValues": [
+                    "2023"
+                ],
+                "visualId": "visual1"
+            },
+            {
+                "Id": "1398fddffa81aa5820c2",
+                "Title": "Slicer",
+                "Options": [
+                    "January",
+                    "February",
+                    "March",
+                    "April",
+                    "May",
+                    "June",
+                    "July",
+                    "August",
+                    "September",
+                    "October",
+                    "November",
+                    "December",
+                    ""
+                ],
+                "TableName": "Dates",
+                "ColumnName": "MonthName",
+                "SelectedValues": [
+                    "June"
+                ],
+                "visualId": "visual2"
+            }
+        ],
+        "AdvancedSlicer": [],
+        "FilterValues": []
+    },
+    "Status": 1,
+    "Message": "Success"
+}
