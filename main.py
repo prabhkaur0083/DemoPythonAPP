@@ -16,7 +16,6 @@ def read_root():
 @app.get("/greet/")
 def greet_user(name: str = "Guest"):
     if os.getenv("VALUE"):
-         
          return {"message": f"Hello, {name}!"}
     else:
         return {"message": f"No env find, {name}!"}
@@ -27,6 +26,12 @@ def greet_user(name: str = "Guest"):
 def read_item(item_id: int, details: bool = False):
     if details:
         return {"item_id": item_id, "description": f"Details for item {item_id}"}
+    return {"item_id": item_id}
+
+@app.get("/newitems/{item_id}")
+def new_item(item_id: int, details: bool = False):
+    if details:
+        return {"new_item_id": item_id, "newdescription": f"Details for item {item_id}"}
     return {"item_id": item_id}
 
 # Route for POST request
