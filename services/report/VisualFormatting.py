@@ -190,8 +190,8 @@ def formatData(visualdata) -> Result:
         json_data = Data.json()
 
         # Save the JSON data to a file
-        with open("temporaryData/page1.json", "w") as f:
-            f.write(json_data)
+        # with open("temporaryData/page1.json", "w") as f:
+        #     f.write(json_data)
 
         print("Data saved to data.json")
         return Result(

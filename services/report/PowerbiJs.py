@@ -157,8 +157,8 @@ def visualExtraction(embedToken, reportId, workspaceId, pageName, slicerOptions=
             pagesdata = page.evaluate(js_code)
             browser.close()
 
-            with open("temporaryData/page1Visual.json", "w") as file:
-                json.dump(pagesdata, file, indent=4)
+            # with open("temporaryData/page1Visual.json", "w") as file:
+            #     json.dump(pagesdata, file, indent=4)
 
             return formatData(pagesdata)
         

@@ -4,7 +4,7 @@ from core.models.report.ResultModel import Result
 from constant.Constant import embedTokenURL
 from  utils.RedisConnection import redisClient
 from utils.convertTimeInSeconds import convertTimeIntoSeconds
-
+from utils.SaveEmbedToken import saveTokenToFile
 
 # Generate Embed Token
 def generateEmbedToken(report_id, access_token, datasetID) -> Result:
@@ -24,13 +24,15 @@ def generateEmbedToken(report_id, access_token, datasetID) -> Result:
         response = requests.post(url, json=payload, headers=headers)
 
         # Store the token with expiration in Redis
-        redis_key = "embedToken"  # Use tokenId for a unique key
+        # redis_key = "embedToken"  # Use tokenId for a unique key
 
         ttlSeconds = convertTimeIntoSeconds(response.json()["expiration"])
 
-        redisClient.setex(redis_key, ttlSeconds, response.json()["token"])
+        # redisClient.setex(redis_key, ttlSeconds, response.json()["token"])
         
         embedtoken = response.json()["token"]
+
+        saveTokenToFile(embedtoken, ttlSeconds)
 
         return Result(
             Data=embedtoken, Status=1, Message="Embed token successfully created"
