@@ -2,6 +2,7 @@
 from Server.init import app
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
+import os
 
 
 # Add CORS middleware to allow requests from your frontend
@@ -20,6 +21,7 @@ app.add_middleware(
 
 def runServer():
     try:
-        uvicorn.run(app)
+        port = int(os.getenv("PORT", 8081))  # Use the PORT environment variable
+        uvicorn.run(app, host="0.0.0.0", port=port)
     except Exception as ex:
         print(f"Error: {ex}")
