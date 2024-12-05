@@ -1,0 +1,212 @@
+{
+    "data": [
+        {
+            "Id": "5cc3fcf1b7fff08cf383",
+            "Type": "areaChart",
+            "Title": "Closed Won ($) by Year-Month",
+            "VisualData": {
+                "data": "Year-Month,Closed Won ($)\r\n2024-01,$330274\r\n2024-02,$340045\r\n2024-03,$482885\r\n2024-04,$438609\r\n2024-05,$603103\r\n2024-06,$567491\r\n2024-07,$497224\r\n2024-08,$312203\r\n"
+            }
+        },
+        {
+            "Id": "a7feb429518a0b3c7e78",
+            "Type": "slicer",
+            "Title": "Company Region",
+            "VisualData": {
+                "data": "Regions\r\nIndia - APAC\r\nNA - EU\r\n"
+            }
+        },
+        {
+            "Id": "a4f16a9e8879c587f29b",
+            "Type": "slicer",
+            "Title": "Month Slicer",
+            "VisualData": {
+                "data": "MonthName\r\nJanuary\r\nFebruary\r\nMarch\r\nApril\r\nMay\r\nJune\r\nJuly\r\nAugust\r\nSeptember\r\nOctober\r\nNovember\r\nDecember\r\n"
+            }
+        },
+        {
+            "Id": "e6863e89953f8a87e887",
+            "Type": "slicer",
+            "Title": "Year Slicer",
+            "VisualData": {
+                "data": "Year\r\n2021\r\n2022\r\n2023\r\n2024\r\n"
+            }
+        },
+        {
+            "Id": "4a5665ff157796885166",
+            "Type": "advancedSlicerVisual",
+            "Title": "Line graph Slicer",
+            "VisualData": {
+                "data": "Filter By\r\nClosed Won ($)\r\nNew Bookings (#)\r\nCust.Count EOM\r\nConversion Rate\r\n"
+            }
+        },
+        {
+            "Id": "2fc7c27253a928592144",
+            "Type": "funnel",
+            "Title": "New Bookings (#)",
+            "VisualData": {
+                "data": "Region,Closed Won ($)\r\nNA/EU,$167450.00\r\nIndia/APAC,$144752.50\r\n"
+            }
+        },
+        {
+            "Id": "7090ff854dee467db220",
+            "Type": "clusteredColumnChart",
+            "Title": "Clustered column chart",
+            "VisualData": {
+                "data": "ARR,MonthNew\r\n$5487509,Jan\r\n$5803177,Feb\r\n$6257262,Mar\r\n$6681529,Apr\r\n$7251192,May\r\n$7760926,Jun\r\n$8110781,Jul\r\n$8324481,Aug\r\n"
+            }
+        },
+        {
+            "Id": "b313fef523625a16353e",
+            "Type": "cardVisual",
+            "Title": "New Bookings",
+            "VisualData": {
+                "data": "New Bookings ($):\r\n$257052.50\r\n"
+            }
+        },
+        {
+            "Id": "dfafa094eb48deefce6a",
+            "Type": "cardVisual",
+            "Title": "Customers",
+            "VisualData": {
+                "data": "Customers: \r\n40\r\n"
+            }
+        },
+        {
+            "Id": "a83703c2d62a0e6195b7",
+            "Type": "cardVisual",
+            "Title": "Conversion %",
+            "VisualData": {
+                "data": "tryDeal Conversion Rate,Deals- Close Won(NB),Deals- Close Lost(NB),Dynamic Conversion,Color PM Conversion,MoM Conversion Growth%,tryDeal Conversion Rate PY Growth% Color,tryDeal Conversion RatePY Growth%\r\n88.89%,40,5,78.82%,,12.8% 🡱,,34.1% 🡱\r\n"
+            }
+        },
+        {
+            "Id": "6af37b6d113a858a0f6c",
+            "Type": "cardVisual",
+            "Title": "Avg. ACV/ARPU",
+            "VisualData": {
+                "data": "Avg. Deal Size:\r\n$6426.31\r\n"
+            }
+        },
+        {
+            "Id": "49d8d0911314c053f3a9",
+            "Type": "cardVisual",
+            "Title": "ARR",
+            "VisualData": {
+                "data": "ARR:\r\n$8269035.7\r\n"
+            }
+        },
+        {
+            "Id": "e5239f32fe21001bbdd9",
+            "Type": "cardVisual",
+            "Title": "MRR",
+            "VisualData": {
+                "data": "MRR:\r\n$689086.31\r\n"
+            }
+        },
+        {
+            "Id": "923b78e83985fd8fea73",
+            "Type": "card",
+            "Title": "Title Card",
+            "VisualData": {
+                "data": "Dashboard Title\r\nB U S I N E S S   M E T R I C S\r\n"
+            }
+        },
+        {
+            "Id": "cc1588a2a982fc63a59f",
+            "Type": "cardVisual",
+            "Title": "Logo Churn",
+            "VisualData": {
+                "data": "Logo Churn:\r\n1\r\n"
+            }
+        },
+        {
+            "Id": "9dd500820484da74169c",
+            "Type": "advancedSlicerVisual",
+            "Title": "Funnel Chart",
+            "VisualData": {
+                "data": "Funnel Chart\r\nClosed Won ($)\r\nNew Bookings (#)\r\n"
+            }
+        },
+        {
+            "Id": "a68636c5d125958c3999",
+            "Type": "cardVisual",
+            "Title": "Expansions",
+            "VisualData": {
+                "data": "Expansions ($):\r\n$55150.00\r\n"
+            }
+        },
+        {
+            "Id": "adcb6e031a01570513e8",
+            "Type": "clusteredColumnChart",
+            "Title": "Clustered column chart",
+            "VisualData": {
+                "data": "ARR,Lead Source\r\n$2392725,Inbound\r\n$1477688,Outbound\r\n$1454132,Referral\r\n$1109979,Ads\r\n$829201,Expansion\r\n$658588,Partnerships\r\n$257830,Events\r\n$68575,Partnership + Expansion\r\n"
+            }
+        },
+        {
+            "Id": "d49ce5b52595bd17b079",
+            "Type": "advancedSlicerVisual",
+            "Title": "Closing MRR vs Exit ARR",
+            "VisualData": {
+                "data": "Closing MRR vs Exit ARR\r\nMRR\r\nARR\r\n"
+            }
+        },
+        {
+            "Id": "c75b0f8e151d01dbfc54",
+            "Type": "tableEx",
+            "Title": "Table",
+            "VisualData": {
+                "data": "Deal Name,Deal Amount,Create Date,Close Date,Churn Date,Deal Type,Deal Region,Industry,Lead Source,Company Segment,Employee Count\r\nCHC Deal,$25000,2024-04-22 00:00:00,2024-08-01 00:00:00,,Newbusiness,NA - EU,Miscellaneous,Events,Enterprise,""\r\nHou Deal,$16000,2024-08-11 00:00:00,2024-08-29 00:00:00,,Newbusiness,NA - EU,SaaS,Inbound,Enterprise,0-50\r\nMar Deal,$12000,2024-08-22 00:00:00,2024-08-25 00:00:00,,Newbusiness,NA - EU,SaaS,Referral,SMB,""\r\nRay Deal,$11000,2024-08-25 00:00:00,2024-08-30 00:00:00,,Newbusiness,NA - EU,SaaS,Referral,SMB,""\r\nHYK Deal,$10500,2024-08-15 00:00:00,2024-08-23 00:00:00,,Newbusiness,NA - EU,"",Inbound,SMB,0-50\r\nFle Deal,$10000,2024-08-03 00:00:00,2024-08-08 00:00:00,,Newbusiness,NA - EU,SaaS,Referral,Mid-Market,0-50\r\nTri Deal,$9000,2024-08-04 00:00:00,2024-08-30 00:00:00,,Newbusiness,India - APAC,"",Inbound,SMB,501-1000\r\nhyv Deal,$9000,2024-08-04 00:00:00,2024-08-12 00:00:00,,Newbusiness,NA - EU,"",Ads,SMB,0-50\r\nOrb Deal,$8000,2024-08-11 00:00:00,2024-08-18 00:00:00,,Existingbusiness,India - APAC,SaaS,Expansion,SMB,0-50\r\nWri Deal,$8000,2024-08-05 00:00:00,2024-08-09 00:00:00,,Newbusiness,NA - EU,Fintech,Expansion,SMB,51-100\r\nUni Deal,$7500,2024-08-23 00:00:00,2024-08-23 00:00:00,,Newbusiness,NA - EU,Fintech,Expansion,Mid-Market,101-200\r\nCom Deal,$7200,2024-08-19 00:00:00,2024-08-18 00:00:00,,Newbusiness,NA - EU,SaaS,Referral,SMB,0-50\r\nSen Deal,$7000,2024-08-09 00:00:00,2024-08-10 00:00:00,,Newbusiness,NA - EU,SaaS,Partnership + Expansion,SMB,0-50\r\nFul Deal,$7000,2024-08-22 00:00:00,2024-08-22 00:00:00,,Newbusiness,India - APAC,Miscellaneous,Referral,SMB,0-50\r\nFle Deal,$6500,2024-08-24 00:00:00,2024-08-31 00:00:00,,Newbusiness,NA - EU,"",Inbound,SMB,101-200\r\nFri Deal,$6250,2024-08-09 00:00:00,2024-08-09 00:00:00,,Newbusiness,India - APAC,SaaS,Referral,SMB,0-50\r\nInv Deal,$6000,2024-08-01 00:00:00,2024-08-02 00:00:00,,Newbusiness,India - APAC,SaaS,Referral,SMB,0-50\r\nNob Deal,$6000,2024-08-18 00:00:00,2024-08-15 00:00:00,,Newbusiness,India - APAC,"",Referral,Mid-Market,""\r\nEmp Deal,$6000,2024-08-23 00:00:00,2024-08-31 00:00:00,,Newbusiness,NA - EU,"",Ads,SMB,0-50\r\nYeg Deal,$6000,2024-08-31 00:00:00,2024-08-31 00:00:00,,Newbusiness,NA - EU,"",Ads,SMB,0-50\r\nPro Deal,$5500,2024-08-26 00:00:00,2024-08-30 00:00:00,,Newbusiness,India - APAC,"",Inbound,SMB,0-50\r\nCub Deal,$5420,2024-08-08 00:00:00,2024-08-08 00:00:00,,Newbusiness,India - APAC,"",Inbound,SMB,101-200\r\nWiz Deal,$5000,2024-08-11 00:00:00,2024-08-11 00:00:00,,Existingbusiness,India - APAC,SaaS,Expansion,SMB,0-50\r\nPro Deal,$5000,2024-08-18 00:00:00,2024-08-18 00:00:00,,Existingbusiness,India - APAC,SaaS,Expansion,SMB,501-1000\r\nOtr Deal,$5000,2024-08-05 00:00:00,2024-08-16 00:00:00,,Newbusiness,India - APAC,"",Inbound,SMB,0-50\r\nHar Deal,$5000,2024-08-16 00:00:00,2024-08-19 00:00:00,,Newbusiness,NA - EU,"",Inbound,SMB,0-50\r\nStr Deal,$5000,2024-08-26 00:00:00,2024-08-26 00:00:00,,Newbusiness,India - APAC,SaaS,Partnerships,SMB,201-500\r\nDat Deal,$5000,2024-08-31 00:00:00,2024-08-31 00:00:00,,Newbusiness,NA - EU,"",Inbound,SMB,0-50\r\nRKS Deal,$4800,2024-08-18 00:00:00,2024-08-19 00:00:00,,Newbusiness,India - APAC,"",Ads,SMB,0-50\r\nOne Deal,$4000,2024-08-22 00:00:00,2024-08-22 00:00:00,,Existingbusiness,India - APAC,Miscellaneous,Expansion,SMB,201-500\r\nSma Deal,$4000,2024-08-25 00:00:00,2024-08-25 00:00:00,,Existingbusiness,NA - EU,SaaS,Expansion,SMB,0-50\r\nWaf Deal,$4000,2024-08-01 00:00:00,2024-08-24 00:00:00,,Newbusiness,India - APAC,"",Inbound,SMB,0-50\r\nGat Deal,$4000,2024-08-05 00:00:00,2024-08-08 00:00:00,,Newbusiness,India - APAC,"",Ads,SMB,0-50\r\nTig Deal,$4000,2024-08-08 00:00:00,2024-08-09 00:00:00,,Newbusiness,India - APAC,"",Ads,SMB,0-50\r\nSee Deal,$4000,2024-08-30 00:00:00,2024-08-30 00:00:00,,Newbusiness,NA - EU,SaaS,Expansion,Mid-Market,201-500\r\nWil Deal,$3900,2024-08-23 00:00:00,2024-08-23 00:00:00,,Existingbusiness,India - APAC,SaaS,Expansion,SMB,""\r\nEnm Deal,$3750,2024-08-11 00:00:00,2024-08-12 00:00:00,,Existingbusiness,India - APAC,SaaS,Expansion,SMB,101-200\r\nKis Deal,$3750,2024-08-24 00:00:00,2024-08-24 00:00:00,,Existingbusiness,India - APAC,Fintech,Expansion,SMB,201-500\r\nTab Deal,$3500,2024-08-18 00:00:00,2024-08-18 00:00:00,,Newbusiness,India - APAC,Miscellaneous,Referral,SMB,""\r\nVel Deal,$3500,2024-08-19 00:00:00,2024-08-22 00:00:00,,Newbusiness,NA - EU,SaaS,Expansion,Mid-Market,101-200\r\nEld Deal,$3374,2024-08-26 00:00:00,2024-08-26 00:00:00,,Newbusiness,India - APAC,Healthtech,Expansion,SMB,0-50\r\nSaa Deal,$3200,2024-08-12 00:00:00,2024-08-12 00:00:00,,Newbusiness,India - APAC,SaaS,Partnerships,SMB,0-50\r\nVan Deal,$3000,2024-08-11 00:00:00,2024-08-11 00:00:00,,Existingbusiness,India - APAC,SaaS,Expansion,SMB,101-200\r\nSig Deal,$3000,2024-08-24 00:00:00,2024-08-24 00:00:00,,Existingbusiness,India - APAC,SaaS,Partnership + Expansion,SMB,201-500\r\nDat Deal,$3000,2024-08-05 00:00:00,2024-08-05 00:00:00,,Newbusiness,India - APAC,"",Ads,SMB,0-50\r\nBab Deal,$3000,2024-08-19 00:00:00,2024-08-23 00:00:00,,Newbusiness,India - APAC,SaaS,Partnerships,SMB,0-50\r\nLum Deal,$2500,2024-08-04 00:00:00,2024-08-24 00:00:00,,Newbusiness,NA - EU,SaaS,Referral,SMB,""\r\nLio Deal,$2500,2024-08-11 00:00:00,2024-08-16 00:00:00,,Newbusiness,India - APAC,SaaS,Ads,SMB,0-50\r\nSup Deal,$2409,2024-08-10 00:00:00,2024-08-10 00:00:00,,Newbusiness,India - APAC,Healthtech,Referral,SMB,101-200\r\nSDC Deal,$2400,2024-08-08 00:00:00,2024-08-09 00:00:00,,Newbusiness,India - APAC,"",Inbound,SMB,0-50\r\nRez Deal,$2250,2024-08-09 00:00:00,2024-08-09 00:00:00,,Existingbusiness,India - APAC,SaaS,Expansion,SMB,0-50\r\nLoo Deal,$2250,2024-08-24 00:00:00,2024-08-24 00:00:00,,Existingbusiness,India - APAC,SaaS,Expansion,SMB,501-1000\r\nKek Deal,$2000,2024-08-05 00:00:00,2024-08-05 00:00:00,,Existingbusiness,India - APAC,SaaS,Expansion,SMB,501-1000\r\nEva Deal,$2000,2024-06-07 00:00:00,2024-08-05 00:00:00,,Newbusiness,NA - EU,SaaS,Expansion,SMB,21-100\r\nCoa Deal,$1750,2024-08-19 00:00:00,2024-08-23 00:00:00,,Existingbusiness,NA - EU,SaaS,Expansion,SMB,0-50\r\nNir Deal,$1205,2024-08-23 00:00:00,2024-08-23 00:00:00,,Existingbusiness,India - APAC,Fintech,Expansion,SMB,201-500\r\n3Sc Deal,$1024,2024-08-18 00:00:00,2024-08-18 00:00:00,,Existingbusiness,India - APAC,Miscellaneous,Expansion,SMB,201-500\r\nRev Deal,$500,2024-08-16 00:00:00,2024-08-16 00:00:00,,Existingbusiness,India - APAC,SaaS,Expansion,SMB,101-200\r\nMyn Deal,$482,2024-08-10 00:00:00,2024-08-10 00:00:00,,Existingbusiness,India - APAC,SaaS,Expansion,SMB,0-50\r\nZoo Deal,$289,2024-08-18 00:00:00,2024-08-18 00:00:00,,Existingbusiness,India - APAC,Miscellaneous,Expansion,SMB,0-50\r\nIgn Deal,$0,2024-06-02 00:00:00,2024-08-01 00:00:00,,"","","","","",""\r\nSta Deal,$0,2024-06-04 00:00:00,2024-08-02 00:00:00,,"","","","","",""\r\nLau Deal,$0,2024-06-08 00:00:00,2024-08-06 00:00:00,,"","","","",SMB,0-50\r\nNeb Deal,$0,2024-06-11 00:00:00,2024-08-10 00:00:00,,"","","","","",0-50\r\nCot Deal,$0,2024-06-12 00:00:00,2024-08-11 00:00:00,,"","","","",SMB,201-500\r\nMas Deal,$0,2024-06-14 00:00:00,2024-08-13 00:00:00,,"","","","","",""\r\nAir Deal,$0,2024-06-17 00:00:00,2024-08-16 00:00:00,,"","","","","",""\r\nDum Deal,$0,2024-06-20 00:00:00,2024-08-19 00:00:00,,"","","","",SMB,""\r\nDum Deal,$0,2024-06-20 00:00:00,2024-08-19 00:00:00,,"","","","",SMB,51-100\r\nInt Deal,$0,2024-06-26 00:00:00,2024-08-25 00:00:00,,"","","","","",0-50\r\nASP Deal,$0,2024-06-27 00:00:00,2024-08-25 00:00:00,,"","","","",SMB,0-50\r\nPur Deal,$0,2024-07-02 00:00:00,2024-08-31 00:00:00,,"","","","","",""\r\nBlu Deal,$0,2024-07-02 00:00:00,2024-08-31 00:00:00,,"","","","",Mid-Market,201-500\r\nPur Deal,$0,2024-08-02 00:00:00,2024-08-31 00:00:00,,"","","","","",""\r\nBlu Deal,$0,2024-08-02 00:00:00,2024-08-31 00:00:00,,"","","","",Mid-Market,201-500\r\nRat Deal,$0,2024-06-12 00:00:00,2024-08-11 00:00:00,,Existingbusiness,NA - EU,SaaS,Expansion,Mid-Market,501-1000\r\nChi Deal,$0,2022-09-22 00:00:00,2024-08-12 00:00:00,,Newbusiness,India - APAC,SaaS,Outbound,SMB,1-20\r\nHRS Deal,$0,2023-04-28 00:00:00,2024-08-28 00:00:00,,Newbusiness,NA - EU,SaaS,Inbound,Mid-Market,201-500\r\nEOS Deal,$0,2024-03-21 00:00:00,2024-08-31 00:00:00,,Newbusiness,NA - EU,"",Outbound,Mid-Market,2501-5000\r\nCor Deal,$0,2024-04-01 00:00:00,2024-08-01 00:00:00,,Newbusiness,NA - EU,"",Events,SMB,0-50\r\nAva Deal,$0,2024-04-20 00:00:00,2024-08-30 00:00:00,,Newbusiness,NA - EU,"",Outbound,SMB,201-500\r\nNav Deal,$0,2024-06-03 00:00:00,2024-08-02 00:00:00,,Newbusiness,NA - EU,Healthtech,Partnerships,Enterprise,0-50\r\nSot Deal,$0,2024-06-05 00:00:00,2024-08-04 00:00:00,,Newbusiness,NA - EU,SaaS,BDR + Partnerships,SMB,1-20\r\nSym Deal,$0,2024-06-06 00:00:00,2024-08-05 00:00:00,,Newbusiness,India - APAC,SaaS,Referral,SMB,5000+\r\nIqi Deal,$0,2024-06-07 00:00:00,2024-08-15 00:00:00,,Newbusiness,NA - EU,"",Inbound,SMB,0-50\r\nCir Deal,$0,2024-06-10 00:00:00,2024-08-31 00:00:00,,Newbusiness,NA - EU,"",Inbound,SMB,51-100\r\nPic Deal,$0,2024-06-14 00:00:00,2024-08-13 00:00:00,,Newbusiness,India - APAC,SaaS,Partnerships,SMB,101-200\r\n101 Deal,$0,2024-06-18 00:00:00,2024-08-17 00:00:00,,Newbusiness,NA - EU,SaaS,Outbound,SMB,""\r\nVab Deal,$0,2024-06-21 00:00:00,2024-08-20 00:00:00,,Newbusiness,India - APAC,SaaS,Outbound,SMB,0-50\r\nNav Deal,$0,2024-06-24 00:00:00,2024-08-23 00:00:00,,Newbusiness,India - APAC,SaaS,Outbound,SMB,0-50\r\nNin Deal,$0,2024-06-25 00:00:00,2024-08-24 00:00:00,,Newbusiness,NA - EU,SaaS,Inbound,Enterprise,1001-2500\r\nDex Deal,$0,2024-06-26 00:00:00,2024-08-25 00:00:00,,Newbusiness,India - APAC,Miscellaneous,Partnerships,SMB,""\r\nOri Deal,$0,2024-06-26 00:00:00,2024-08-25 00:00:00,,Newbusiness,India - APAC,Miscellaneous,Partnerships,SMB,2501-5000\r\nGri Deal,$0,2024-06-26 00:00:00,2024-08-25 00:00:00,,Newbusiness,India - APAC,SaaS,Partnerships,SMB,0-50\r\nHun Deal,$0,2024-06-26 00:00:00,2024-08-25 00:00:00,,Newbusiness,India - APAC,SaaS,Partnerships,SMB,51-100\r\nCat Deal,$0,2024-07-08 00:00:00,2024-08-31 00:00:00,,Newbusiness,NA - EU,"",Ads,SMB,""\r\nHyp Deal,$0,2024-07-16 00:00:00,2024-08-30 00:00:00,,Newbusiness,NA - EU,"",Ads,SMB,""\r\nBlu Deal,$0,2024-07-23 00:00:00,2024-08-30 00:00:00,,Newbusiness,NA - EU,"",Ads,SMB,0-50\r\nApp Deal,$0,2024-07-25 00:00:00,2024-08-29 00:00:00,,Newbusiness,NA - EU,"",Ads,SMB,0-50\r\nVis Deal,$0,2024-07-29 00:00:00,2024-08-31 00:00:00,,Newbusiness,NA - EU,"",Inbound,SMB,0-50\r\nUni Deal,$0,2024-07-31 00:00:00,2024-08-31 00:00:00,,Newbusiness,NA - EU,"",Inbound,SMB,""\r\nSpo Deal,$0,2024-08-01 00:00:00,2024-08-30 00:00:00,,Newbusiness,NA - EU,SaaS,Referral,Mid-Market,201-500\r\nCat Deal,$0,2024-08-08 00:00:00,2024-08-31 00:00:00,,Newbusiness,NA - EU,"",Ads,SMB,""\r\nKai Deal,$0,2024-08-08 00:00:00,2024-08-31 00:00:00,,Newbusiness,NA - EU,"",Inbound,SMB,0-50\r\nTax Deal,$0,2024-08-09 00:00:00,2024-08-16 00:00:00,,Newbusiness,NA - EU,SaaS,Ads,SMB,0-50\r\neTA Deal,$0,2024-08-10 00:00:00,2024-08-19 00:00:00,,Newbusiness,NA - EU,"",Inbound,SMB,0-50\r\nAll Deal,$0,2024-08-12 00:00:00,2024-08-31 00:00:00,,Newbusiness,NA - EU,"",Ads,SMB,0-50\r\nHyp Deal,$0,2024-08-16 00:00:00,2024-08-30 00:00:00,,Newbusiness,NA - EU,"",Ads,SMB,""\r\nRap Deal,$0,2024-08-19 00:00:00,2024-08-31 00:00:00,,Newbusiness,NA - EU,"",Ads,Mid-Market,51-100\r\nboa Deal,$0,2024-08-19 00:00:00,2024-08-30 00:00:00,,Newbusiness,NA - EU,"",Ads,SMB,""\r\nBlu Deal,$0,2024-08-23 00:00:00,2024-08-30 00:00:00,,Newbusiness,NA - EU,"",Ads,SMB,0-50\r\nApp Deal,$0,2024-08-25 00:00:00,2024-08-29 00:00:00,,Newbusiness,NA - EU,"",Ads,SMB,0-50\r\nVis Deal,$0,2024-08-29 00:00:00,2024-08-31 00:00:00,,Newbusiness,NA - EU,"",Inbound,SMB,0-50\r\nUni Deal,$0,2024-08-31 00:00:00,2024-08-31 00:00:00,,Newbusiness,NA - EU,"",Inbound,SMB,""\r\n"
+            }
+        },
+        {
+            "Id": "41f843d74a0f1710f352",
+            "Type": "advancedSlicerVisual",
+            "Title": "Comparison To",
+            "VisualData": {
+                "data": "Comparison Mode\r\nvs Budget\r\nvs Last Year\r\nvs Prev. Month\r\n"
+            }
+        },
+        {
+            "Id": "ace6c850132f0e37c0e6",
+            "Type": "cardVisual",
+            "Title": "One Time Revenue",
+            "VisualData": {
+                "data": "Total Amount-(Value)\r\n\r\n"
+            }
+        },
+        {
+            "Id": "3a59b75fecfb9d0e1144",
+            "Type": "cardVisual",
+            "Title": "Revenue Churn",
+            "VisualData": {
+                "data": "_revenueChurn2\r\n\r\n"
+            }
+        },
+        {
+            "Id": "3e00fb2b52eb4eb7e259",
+            "Type": "lineStackedColumnComboChart",
+            "Title": "Classification of ARR by Month",
+            "VisualData": {
+                "data": "Month:,Expansion:,New Bookings,ARR Change:,ARR Change,Logo Churn:,Revenue Churn: \r\nJan-24,$56655.00,$273619,5.8% 🡱,5.85%,($23800.00),\r\nFeb-24,$27661.00,$312384,5.8% 🡱,5.75%,($42221.00),($256.00)\r\nMar-24,$56760.00,$426125,7.8% 🡱,7.82%,($50000.00),($2300.00)\r\nApr-24,$73095.83,$365513,6.8% 🡱,6.78%,($52325.00),\r\nMay-24,$97577.75,$505525,8.5% 🡱,8.53%,($41940.00),\r\nJun-24,$63406.00,$504085,7% 🡱,7.03%,($62756.25),\r\nJul-24,$55150.00,$442074,4.5% 🡱,4.51%,$0.00,\r\nAug-24,$55150.00,$257053,2% 🡱,1.95%,($6000.00),\r\n"
+            }
+        },
+        {
+            "Id": "9c530b54ffc254e16734",
+            "Type": "clusteredColumnChart",
+            "Title": "Clustered column chart",
+            "VisualData": {
+                "data": "ARR,AE Owner\r\n$1666084,Exec 3\r\n$1597123,Exec 2\r\n$1423500,Exec 5\r\n$1046001,Exec 4\r\n$963250,Exec 6\r\n$563399,Exec 1\r\n$323556,Exec 15\r\n$264000,Exec 14\r\n$224000,Exec 16\r\n$113000,Exec 17\r\n$49133,Exec 12\r\n$13000,Exec 11\r\n$8000,Exec 13\r\n"
+            }
+        },
+        {
+            "Id": "3d0559e4267614842fed",
+            "Type": "clusteredColumnChart",
+            "Title": "Clustered column chart",
+            "VisualData": {
+                "data": "New Industry,ARR\r\nFintech,$1219362\r\nHealthtech,$329086\r\nMiscellaneous,$689033\r\nOther,$1339512\r\nSaaS,$4747488\r\n"
+            }
+        }
+    ]
+}

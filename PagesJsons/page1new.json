@@ -1,0 +1,2294 @@
+{
+    "Cards": [
+        {
+            "Title": "ARR",
+            "Content": "$8.3M",
+            "visualId": "visual1"
+        },
+        {
+            "Title": "ARR-PM",
+            "Content": "$8110781.22",
+            "visualId": "visual2"
+        },
+        {
+            "Title": "Dynamic ARR",
+            "Content": "$8110781.22",
+            "visualId": "visual3"
+        },
+        {
+            "Title": "Dynamic ARR Variance",
+            "Content": "2.6% 🡱",
+            "visualId": "visual4"
+        },
+        {
+            "Title": "New Bookings",
+            "Content": "$774.58K",
+            "visualId": "visual9"
+        },
+        {
+            "Title": "New Bookings-PM",
+            "Content": "$759309.83",
+            "visualId": "visual10"
+        },
+        {
+            "Title": "Dynamic New Bookings",
+            "Content": "$759309.83",
+            "visualId": "visual11"
+        },
+        {
+            "Title": "Dynamic NewBooking Variance",
+            "Content": "2% 🡱",
+            "visualId": "visual12"
+        },
+        {
+            "Title": "Expansion",
+            "Content": "$213699.50",
+            "visualId": "visual13"
+        },
+        {
+            "Title": "Expansions-PM",
+            "Content": "$759309.83",
+            "visualId": "visual14"
+        },
+        {
+            "Title": "Dynamic Expansions",
+            "Content": "$759309.8300000001",
+            "visualId": "visual15"
+        },
+        {
+            "Title": "Dynamic Expansion Variance",
+            "Content": "2% 🡱",
+            "visualId": "visual16"
+        },
+        {
+            "Title": "MRR",
+            "Content": "$693.71K",
+            "visualId": "visual17"
+        },
+        {
+            "Title": "MRR-PM",
+            "Content": "675898.435",
+            "visualId": "visual18"
+        },
+        {
+            "Title": "Dynamic MRR",
+            "Content": "$675898.44",
+            "visualId": "visual19"
+        },
+        {
+            "Title": "Dynamic MRR Variance",
+            "Content": "2.6% 🡱",
+            "visualId": "visual20"
+        },
+        {
+            "Title": "Avg. ACV/ARPU",
+            "Content": "$6.43K",
+            "visualId": "visual21"
+        },
+        {
+            "Title": "ARPU -PM",
+            "Content": "$6598.12",
+            "visualId": "visual22"
+        },
+        {
+            "Title": "Dynamic ARPU",
+            "Content": "$6598.12",
+            "visualId": "visual23"
+        },
+        {
+            "Title": "Dynamic ARPU Variance",
+            "Content": "-2.6% 🡳",
+            "visualId": "visual24"
+        },
+        {
+            "Title": "Net Blended ACV",
+            "Content": "$7024.88",
+            "visualId": "visual25"
+        },
+        {
+            "Title": "Customers",
+            "Content": "40",
+            "visualId": "visual26"
+        },
+        {
+            "Title": "Customers -PM",
+            "Content": "67",
+            "visualId": "visual27"
+        },
+        {
+            "Title": "Dynamic Customers",
+            "Content": "67",
+            "visualId": "visual28"
+        },
+        {
+            "Title": "Dynamic Customers Variance",
+            "Content": "-40.3% 🡳",
+            "visualId": "visual29"
+        },
+        {
+            "Title": "Conversions%",
+            "Content": "96.71%",
+            "visualId": "visual30"
+        },
+        {
+            "Title": "Customers -PM",
+            "Content": "89.35%",
+            "visualId": "visual31"
+        },
+        {
+            "Title": "Dynamic Customers",
+            "Content": "89.35%",
+            "visualId": "visual32"
+        },
+        {
+            "Title": "Dynamic Customers Variance",
+            "Content": "-40.3% 🡳",
+            "visualId": "visual33"
+        },
+        {
+            "Title": "Dynamic Title",
+            "Content": "vs Prev. Month",
+            "visualId": "visual50"
+        },
+        {
+            "Title": "Conversions%",
+            "Content": "1",
+            "visualId": "visual51"
+        },
+        {
+            "Title": "Logo Churn -PM",
+            "Content": "0",
+            "visualId": "visual52"
+        },
+        {
+            "Title": "Dynamic Logo Churn",
+            "Content": "0",
+            "visualId": "visual53"
+        },
+        {
+            "Title": "Dynamic Logo Churn Variance",
+            "Content": "0% 🡱",
+            "visualId": "visual54"
+        }
+    ],
+    "Charts": [
+        {
+            "Type": "areaChart",
+            "Title": "Closed Won ($) by Year-Month",
+            "SeriesData": [
+                {
+                    "Xaxis": [
+                        "2024-01",
+                        "2024-02",
+                        "2024-03",
+                        "2024-04",
+                        "2024-05",
+                        "2024-06",
+                        "2024-07",
+                        "2024-08",
+                        "2024-09"
+                    ],
+                    "Yaxis": [
+                        330274.0,
+                        340045.0,
+                        482885.0,
+                        438609.0,
+                        603103.0,
+                        567491.0,
+                        497224.0,
+                        312203.0,
+                        36000.0
+                    ]
+                }
+            ],
+            "visualId": "visual34"
+        },
+        {
+            "Type": "areaChart",
+            "Title": "New Bookings (#) by Year-Month",
+            "SeriesData": [
+                {
+                    "Xaxis": [
+                        "2024-01",
+                        "2024-02",
+                        "2024-03",
+                        "2024-04",
+                        "2024-05",
+                        "2024-06",
+                        "2024-07",
+                        "2024-08",
+                        "2024-09"
+                    ],
+                    "Yaxis": [
+                        41.0,
+                        48.0,
+                        58.0,
+                        52.0,
+                        69.0,
+                        75.0,
+                        67.0,
+                        40.0,
+                        6.0
+                    ]
+                }
+            ],
+            "visualId": "visual35"
+        },
+        {
+            "Type": "areaChart",
+            "Title": "Cust.Count EOM by Year-Month",
+            "SeriesData": [
+                {
+                    "Xaxis": [
+                        "2024-01",
+                        "2024-02",
+                        "2024-03",
+                        "2024-04",
+                        "2024-05",
+                        "2024-06",
+                        "2024-07",
+                        "2024-08",
+                        "2024-09",
+                        "2024-10"
+                    ],
+                    "Yaxis": [
+                        767.0,
+                        815.0,
+                        873.0,
+                        925.0,
+                        932.0,
+                        933.0,
+                        933.0,
+                        933.0,
+                        933.0,
+                        933.0
+                    ]
+                }
+            ],
+            "visualId": "visual36"
+        },
+        {
+            "Type": "areaChart",
+            "Title": "Conversion Rate% by Year-Month",
+            "SeriesData": [
+                {
+                    "Xaxis": [
+                        "2024-01",
+                        "2024-02",
+                        "2024-03",
+                        "2024-04",
+                        "2024-05",
+                        "2024-06",
+                        "2024-07",
+                        "2024-08",
+                        "2024-09"
+                    ],
+                    "Yaxis": [
+                        70.69,
+                        42.48,
+                        60.42,
+                        59.77,
+                        71.88,
+                        62.5,
+                        78.82,
+                        88.89,
+                        100.0
+                    ]
+                }
+            ],
+            "visualId": "visual37"
+        },
+        {
+            "Type": "lineStackedColumnComboChart",
+            "Title": "Classification of ARR by Month",
+            "SeriesData": [
+                {
+                    "Xaxis": [
+                        "Jan-24",
+                        "Feb-24",
+                        "Mar-24",
+                        "Apr-24",
+                        "May-24",
+                        "Jun-24",
+                        "Jul-24",
+                        "Aug-24",
+                        "",
+                        ""
+                    ],
+                    "Yaxis": [
+                        56655.0,
+                        27661.0,
+                        56760.0,
+                        73095.83,
+                        97577.75,
+                        63406.0,
+                        55150.0,
+                        55150.0,
+                        -24.0,
+                        -24.0
+                    ]
+                },
+                {
+                    "Xaxis": [
+                        "Jan-24",
+                        "Feb-24",
+                        "Mar-24",
+                        "Apr-24",
+                        "May-24",
+                        "Jun-24",
+                        "Jul-24",
+                        "Aug-24",
+                        "Sep-24",
+                        ""
+                    ],
+                    "Yaxis": [
+                        273619.0,
+                        312384.0,
+                        426125.0,
+                        365513.0,
+                        505525.0,
+                        504085.0,
+                        442074.0,
+                        257053.0,
+                        36000.0,
+                        -24.0
+                    ]
+                },
+                {
+                    "Xaxis": [
+                        "Jan-24",
+                        "Feb-24",
+                        "Mar-24",
+                        "Apr-24",
+                        "May-24",
+                        "Jun-24",
+                        "Jul-24",
+                        "Aug-24",
+                        "Sep-24",
+                        "Oct-24"
+                    ],
+                    "Yaxis": [
+                        5.8,
+                        5.8,
+                        7.8,
+                        6.8,
+                        8.5,
+                        7.0,
+                        4.5,
+                        2.6,
+                        -6.5,
+                        -1.5
+                    ]
+                },
+                {
+                    "Xaxis": [
+                        "Jan-24",
+                        "Feb-24",
+                        "Mar-24",
+                        "Apr-24",
+                        "May-24",
+                        "Jun-24",
+                        "Jul-24",
+                        "Aug-24",
+                        "Sep-24",
+                        "Oct-24"
+                    ],
+                    "Yaxis": [
+                        5.85,
+                        5.75,
+                        7.82,
+                        6.78,
+                        8.53,
+                        7.03,
+                        4.51,
+                        2.63,
+                        -6.55,
+                        -1.45
+                    ]
+                },
+                {
+                    "Xaxis": [
+                        "Jan-24",
+                        "Feb-24",
+                        "Mar-24",
+                        "Apr-24",
+                        "May-24",
+                        "Jun-24",
+                        "Jul-24",
+                        "Aug-24",
+                        "Sep-24",
+                        "Oct-24"
+                    ],
+                    "Yaxis": [
+                        23800.0,
+                        42221.0,
+                        50000.0,
+                        52325.0,
+                        41940.0,
+                        62756.25,
+                        0.0,
+                        6000.0,
+                        15000.0,
+                        0.0
+                    ]
+                },
+                {
+                    "Xaxis": [
+                        "",
+                        "Feb-24",
+                        "Mar-24",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "Yaxis": [
+                        -24.0,
+                        256.0,
+                        2300.0,
+                        -24.0,
+                        -24.0,
+                        -24.0,
+                        -24.0,
+                        -24.0,
+                        -24.0,
+                        -24.0
+                    ]
+                }
+            ],
+            "visualId": "visual38"
+        },
+        {
+            "Type": "clusteredColumnChart",
+            "Title": "MRR by Month",
+            "SeriesData": [
+                {
+                    "Xaxis": [
+                        "Jan",
+                        "Feb",
+                        "Mar",
+                        "Apr",
+                        "May",
+                        "Jun",
+                        "Jul",
+                        "Aug"
+                    ],
+                    "Yaxis": [
+                        457292.0,
+                        483598.0,
+                        521438.0,
+                        556794.0,
+                        604266.0,
+                        646744.0,
+                        675898.0,
+                        693707.0
+                    ]
+                }
+            ],
+            "visualId": "visual39"
+        },
+        {
+            "Type": "clusteredColumnChart",
+            "Title": "ARR by Month",
+            "SeriesData": [
+                {
+                    "Xaxis": [
+                        "Jan",
+                        "Feb",
+                        "Mar",
+                        "Apr",
+                        "May",
+                        "Jun",
+                        "Jul",
+                        "Aug"
+                    ],
+                    "Yaxis": [
+                        5487509.0,
+                        5803177.0,
+                        6257262.0,
+                        6681529.0,
+                        7251192.0,
+                        7760926.0,
+                        8110781.0,
+                        8324481.0
+                    ]
+                }
+            ],
+            "visualId": "visual40"
+        },
+        {
+            "Type": "clusteredColumnChart",
+            "Title": "MRR vs Lead Source",
+            "SeriesData": [
+                {
+                    "Xaxis": [
+                        "Inbound",
+                        "Outbound",
+                        "Referral",
+                        "Ads",
+                        "Expansion",
+                        "Partnerships",
+                        "Events",
+                        "Partnership + Expansion"
+                    ],
+                    "Yaxis": [
+                        199394.0,
+                        123141.0,
+                        121178.0,
+                        92498.0,
+                        69100.0,
+                        54882.0,
+                        21486.0,
+                        5715.0
+                    ]
+                }
+            ],
+            "visualId": "visual41"
+        },
+        {
+            "Type": "clusteredColumnChart",
+            "Title": "ARR vs Lead Source",
+            "SeriesData": [
+                {
+                    "Xaxis": [
+                        "Inbound",
+                        "Outbound",
+                        "Referral",
+                        "Ads",
+                        "Expansion",
+                        "Partnerships",
+                        "Events",
+                        "Partnership + Expansion"
+                    ],
+                    "Yaxis": [
+                        2392725.0,
+                        1477688.0,
+                        1454132.0,
+                        1109979.0,
+                        829201.0,
+                        658588.0,
+                        257830.0,
+                        68575.0
+                    ]
+                }
+            ],
+            "visualId": "visual42"
+        },
+        {
+            "Type": "clusteredColumnChart",
+            "Title": "MRR by Industry",
+            "SeriesData": [
+                {
+                    "Xaxis": [
+                        "SaaS",
+                        "Other",
+                        "Fintech",
+                        "Miscellaneous",
+                        "Healthtech"
+                    ],
+                    "Yaxis": [
+                        395624.0,
+                        111626.0,
+                        101614.0,
+                        57419.0,
+                        27424.0
+                    ]
+                }
+            ],
+            "visualId": "visual43"
+        },
+        {
+            "Type": "clusteredColumnChart",
+            "Title": "MRR by AE Owner",
+            "SeriesData": [
+                {
+                    "Xaxis": [
+                        "Exec 3",
+                        "Exec 2",
+                        "Exec 5",
+                        "Exec 4",
+                        "Exec 6",
+                        "Exec 1",
+                        "Exec 15",
+                        "Exec 14",
+                        "Exec 16",
+                        "Exec 17",
+                        "Exec 12",
+                        "Exec 11",
+                        "Exec 13"
+                    ],
+                    "Yaxis": [
+                        138840.0,
+                        133094.0,
+                        118625.0,
+                        87167.0,
+                        80271.0,
+                        46950.0,
+                        26963.0,
+                        22000.0,
+                        18667.0,
+                        9417.0,
+                        4094.0,
+                        1083.0,
+                        667.0
+                    ]
+                }
+            ],
+            "visualId": "visual44"
+        },
+        {
+            "Type": "clusteredColumnChart",
+            "Title": "ARR by Industry",
+            "SeriesData": [
+                {
+                    "Xaxis": [
+                        "SaaS",
+                        "Other",
+                        "Fintech",
+                        "Miscellaneous",
+                        "Healthtech"
+                    ],
+                    "Yaxis": [
+                        4747488.0,
+                        1339512.0,
+                        1219362.0,
+                        689033.0,
+                        329086.0
+                    ]
+                }
+            ],
+            "visualId": "visual45"
+        },
+        {
+            "Type": "clusteredColumnChart",
+            "Title": "ARR by AE Owner",
+            "SeriesData": [
+                {
+                    "Xaxis": [
+                        "Exec 3",
+                        "Exec 2",
+                        "Exec 5",
+                        "Exec 4",
+                        "Exec 6",
+                        "Exec 1",
+                        "Exec 15",
+                        "Exec 14",
+                        "Exec 16",
+                        "Exec 17",
+                        "Exec 12",
+                        "Exec 11",
+                        "Exec 13"
+                    ],
+                    "Yaxis": [
+                        1666084.0,
+                        1597123.0,
+                        1423500.0,
+                        1046001.0,
+                        963250.0,
+                        563399.0,
+                        323556.0,
+                        264000.0,
+                        224000.0,
+                        113000.0,
+                        49133.0,
+                        13000.0,
+                        8000.0
+                    ]
+                }
+            ],
+            "visualId": "visual46"
+        },
+        {
+            "Type": "funnel",
+            "Title": "Closed Won ($)",
+            "SeriesData": [
+                {
+                    "Xaxis": [
+                        "NA/EU",
+                        "India/APAC"
+                    ],
+                    "Yaxis": [
+                        167450.0,
+                        144752.5
+                    ]
+                }
+            ],
+            "visualId": "visual47"
+        },
+        {
+            "Type": "funnel",
+            "Title": "New Bookings (#)",
+            "SeriesData": [
+                {
+                    "Xaxis": [
+                        "India/APAC",
+                        "NA/EU"
+                    ],
+                    "Yaxis": [
+                        21.0,
+                        19.0
+                    ]
+                }
+            ],
+            "visualId": "visual48"
+        }
+    ],
+    "Tables": [
+        {
+            "Type": "tableEx",
+            "Title": "Table",
+            "Columns": [
+                "Deal Name",
+                "Deal Amount",
+                "Create Date",
+                "Close Date",
+                "Churn Date",
+                "Deal Type",
+                "Deal Region",
+                "Industry",
+                "Lead Source",
+                "Company Segment",
+                "Employee Count\r"
+            ],
+            "Rows": [
+                [
+                    "CHC Deal",
+                    "25000",
+                    "2024-04-22 00:00:00",
+                    "2024-08-01 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "Miscellaneous",
+                    "Events",
+                    "Enterprise",
+                    ""
+                ],
+                [
+                    "Hou Deal",
+                    "16000",
+                    "2024-08-11 00:00:00",
+                    "2024-08-29 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Inbound",
+                    "Enterprise",
+                    "0-50"
+                ],
+                [
+                    "Mar Deal",
+                    "12000",
+                    "2024-08-22 00:00:00",
+                    "2024-08-25 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Referral",
+                    "SMB",
+                    ""
+                ],
+                [
+                    "Ray Deal",
+                    "11000",
+                    "2024-08-25 00:00:00",
+                    "2024-08-30 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Referral",
+                    "SMB",
+                    ""
+                ],
+                [
+                    "HYK Deal",
+                    "10500",
+                    "2024-08-15 00:00:00",
+                    "2024-08-23 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Fle Deal",
+                    "10000",
+                    "2024-08-03 00:00:00",
+                    "2024-08-08 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Referral",
+                    "Mid-Market",
+                    "0-50"
+                ],
+                [
+                    "Tri Deal",
+                    "9000",
+                    "2024-08-04 00:00:00",
+                    "2024-08-30 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    "501-1000"
+                ],
+                [
+                    "hyv Deal",
+                    "9000",
+                    "2024-08-04 00:00:00",
+                    "2024-08-12 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Ads",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Orb Deal",
+                    "8000",
+                    "2024-08-11 00:00:00",
+                    "2024-08-18 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Expansion",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Wri Deal",
+                    "8000",
+                    "2024-08-05 00:00:00",
+                    "2024-08-09 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "Fintech",
+                    "Expansion",
+                    "SMB",
+                    "51-100"
+                ],
+                [
+                    "Uni Deal",
+                    "7500",
+                    "2024-08-23 00:00:00",
+                    "2024-08-23 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "Fintech",
+                    "Expansion",
+                    "Mid-Market",
+                    "101-200"
+                ],
+                [
+                    "Com Deal",
+                    "7200",
+                    "2024-08-19 00:00:00",
+                    "2024-08-18 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Referral",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Sen Deal",
+                    "7000",
+                    "2024-08-09 00:00:00",
+                    "2024-08-10 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Partnership + Expansion",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Ful Deal",
+                    "7000",
+                    "2024-08-22 00:00:00",
+                    "2024-08-22 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "Miscellaneous",
+                    "Referral",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Fle Deal",
+                    "6500",
+                    "2024-08-24 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    "101-200"
+                ],
+                [
+                    "Fri Deal",
+                    "6250",
+                    "2024-08-09 00:00:00",
+                    "2024-08-09 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Referral",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Inv Deal",
+                    "6000",
+                    "2024-08-01 00:00:00",
+                    "2024-08-02 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Referral",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Nob Deal",
+                    "6000",
+                    "2024-08-18 00:00:00",
+                    "2024-08-15 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "",
+                    "Referral",
+                    "Mid-Market",
+                    ""
+                ],
+                [
+                    "Emp Deal",
+                    "6000",
+                    "2024-08-23 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Ads",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Yeg Deal",
+                    "6000",
+                    "2024-08-31 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Ads",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Pro Deal",
+                    "5500",
+                    "2024-08-26 00:00:00",
+                    "2024-08-30 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Cub Deal",
+                    "5420",
+                    "2024-08-08 00:00:00",
+                    "2024-08-08 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    "101-200"
+                ],
+                [
+                    "Wiz Deal",
+                    "5000",
+                    "2024-08-11 00:00:00",
+                    "2024-08-11 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Expansion",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Pro Deal",
+                    "5000",
+                    "2024-08-18 00:00:00",
+                    "2024-08-18 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Expansion",
+                    "SMB",
+                    "501-1000"
+                ],
+                [
+                    "Otr Deal",
+                    "5000",
+                    "2024-08-05 00:00:00",
+                    "2024-08-16 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Har Deal",
+                    "5000",
+                    "2024-08-16 00:00:00",
+                    "2024-08-19 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Str Deal",
+                    "5000",
+                    "2024-08-26 00:00:00",
+                    "2024-08-26 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Partnerships",
+                    "SMB",
+                    "201-500"
+                ],
+                [
+                    "Dat Deal",
+                    "5000",
+                    "2024-08-31 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "RKS Deal",
+                    "4800",
+                    "2024-08-18 00:00:00",
+                    "2024-08-19 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "",
+                    "Ads",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "One Deal",
+                    "4000",
+                    "2024-08-22 00:00:00",
+                    "2024-08-22 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "Miscellaneous",
+                    "Expansion",
+                    "SMB",
+                    "201-500"
+                ],
+                [
+                    "Sma Deal",
+                    "4000",
+                    "2024-08-25 00:00:00",
+                    "2024-08-25 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Expansion",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Waf Deal",
+                    "4000",
+                    "2024-08-01 00:00:00",
+                    "2024-08-24 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Gat Deal",
+                    "4000",
+                    "2024-08-05 00:00:00",
+                    "2024-08-08 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "",
+                    "Ads",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Tig Deal",
+                    "4000",
+                    "2024-08-08 00:00:00",
+                    "2024-08-09 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "",
+                    "Ads",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "See Deal",
+                    "4000",
+                    "2024-08-30 00:00:00",
+                    "2024-08-30 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Expansion",
+                    "Mid-Market",
+                    "201-500"
+                ],
+                [
+                    "Wil Deal",
+                    "3900",
+                    "2024-08-23 00:00:00",
+                    "2024-08-23 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Expansion",
+                    "SMB",
+                    ""
+                ],
+                [
+                    "Enm Deal",
+                    "3750",
+                    "2024-08-11 00:00:00",
+                    "2024-08-12 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Expansion",
+                    "SMB",
+                    "101-200"
+                ],
+                [
+                    "Kis Deal",
+                    "3750",
+                    "2024-08-24 00:00:00",
+                    "2024-08-24 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "Fintech",
+                    "Expansion",
+                    "SMB",
+                    "201-500"
+                ],
+                [
+                    "Tab Deal",
+                    "3500",
+                    "2024-08-18 00:00:00",
+                    "2024-08-18 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "Miscellaneous",
+                    "Referral",
+                    "SMB",
+                    ""
+                ],
+                [
+                    "Vel Deal",
+                    "3500",
+                    "2024-08-19 00:00:00",
+                    "2024-08-22 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Expansion",
+                    "Mid-Market",
+                    "101-200"
+                ],
+                [
+                    "Eld Deal",
+                    "3374",
+                    "2024-08-26 00:00:00",
+                    "2024-08-26 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "Healthtech",
+                    "Expansion",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Saa Deal",
+                    "3200",
+                    "2024-08-12 00:00:00",
+                    "2024-08-12 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Partnerships",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Van Deal",
+                    "3000",
+                    "2024-08-11 00:00:00",
+                    "2024-08-11 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Expansion",
+                    "SMB",
+                    "101-200"
+                ],
+                [
+                    "Sig Deal",
+                    "3000",
+                    "2024-08-24 00:00:00",
+                    "2024-08-24 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Partnership + Expansion",
+                    "SMB",
+                    "201-500"
+                ],
+                [
+                    "Dat Deal",
+                    "3000",
+                    "2024-08-05 00:00:00",
+                    "2024-08-05 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "",
+                    "Ads",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Bab Deal",
+                    "3000",
+                    "2024-08-19 00:00:00",
+                    "2024-08-23 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Partnerships",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Lum Deal",
+                    "2500",
+                    "2024-08-04 00:00:00",
+                    "2024-08-24 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Referral",
+                    "SMB",
+                    ""
+                ],
+                [
+                    "Lio Deal",
+                    "2500",
+                    "2024-08-11 00:00:00",
+                    "2024-08-16 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Ads",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Sup Deal",
+                    "2409",
+                    "2024-08-10 00:00:00",
+                    "2024-08-10 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "Healthtech",
+                    "Referral",
+                    "SMB",
+                    "101-200"
+                ],
+                [
+                    "SDC Deal",
+                    "2400",
+                    "2024-08-08 00:00:00",
+                    "2024-08-09 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Rez Deal",
+                    "2250",
+                    "2024-08-09 00:00:00",
+                    "2024-08-09 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Expansion",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Loo Deal",
+                    "2250",
+                    "2024-08-24 00:00:00",
+                    "2024-08-24 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Expansion",
+                    "SMB",
+                    "501-1000"
+                ],
+                [
+                    "Kek Deal",
+                    "2000",
+                    "2024-08-05 00:00:00",
+                    "2024-08-05 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Expansion",
+                    "SMB",
+                    "501-1000"
+                ],
+                [
+                    "Eva Deal",
+                    "2000",
+                    "2024-06-07 00:00:00",
+                    "2024-08-05 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Expansion",
+                    "SMB",
+                    "21-100"
+                ],
+                [
+                    "Coa Deal",
+                    "1750",
+                    "2024-08-19 00:00:00",
+                    "2024-08-23 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Expansion",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Nir Deal",
+                    "1205",
+                    "2024-08-23 00:00:00",
+                    "2024-08-23 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "Fintech",
+                    "Expansion",
+                    "SMB",
+                    "201-500"
+                ],
+                [
+                    "3Sc Deal",
+                    "1024",
+                    "2024-08-18 00:00:00",
+                    "2024-08-18 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "Miscellaneous",
+                    "Expansion",
+                    "SMB",
+                    "201-500"
+                ],
+                [
+                    "Rev Deal",
+                    "500",
+                    "2024-08-16 00:00:00",
+                    "2024-08-16 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Expansion",
+                    "SMB",
+                    "101-200"
+                ],
+                [
+                    "Myn Deal",
+                    "482",
+                    "2024-08-10 00:00:00",
+                    "2024-08-10 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Expansion",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Zoo Deal",
+                    "289",
+                    "2024-08-18 00:00:00",
+                    "2024-08-18 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "India - APAC",
+                    "Miscellaneous",
+                    "Expansion",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Ign Deal",
+                    "0",
+                    "2024-06-02 00:00:00",
+                    "2024-08-01 00:00:00",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    "Sta Deal",
+                    "0",
+                    "2024-06-04 00:00:00",
+                    "2024-08-02 00:00:00",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    "Lau Deal",
+                    "0",
+                    "2024-06-08 00:00:00",
+                    "2024-08-06 00:00:00",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Neb Deal",
+                    "0",
+                    "2024-06-11 00:00:00",
+                    "2024-08-10 00:00:00",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0-50"
+                ],
+                [
+                    "Cot Deal",
+                    "0",
+                    "2024-06-12 00:00:00",
+                    "2024-08-11 00:00:00",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "SMB",
+                    "201-500"
+                ],
+                [
+                    "Mas Deal",
+                    "0",
+                    "2024-06-14 00:00:00",
+                    "2024-08-13 00:00:00",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    "Air Deal",
+                    "0",
+                    "2024-06-17 00:00:00",
+                    "2024-08-16 00:00:00",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    "Dum Deal",
+                    "0",
+                    "2024-06-20 00:00:00",
+                    "2024-08-19 00:00:00",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "SMB",
+                    ""
+                ],
+                [
+                    "Dum Deal",
+                    "0",
+                    "2024-06-20 00:00:00",
+                    "2024-08-19 00:00:00",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "SMB",
+                    "51-100"
+                ],
+                [
+                    "Int Deal",
+                    "0",
+                    "2024-06-26 00:00:00",
+                    "2024-08-25 00:00:00",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0-50"
+                ],
+                [
+                    "ASP Deal",
+                    "0",
+                    "2024-06-27 00:00:00",
+                    "2024-08-25 00:00:00",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Pur Deal",
+                    "0",
+                    "2024-07-02 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    "Blu Deal",
+                    "0",
+                    "2024-07-02 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "Mid-Market",
+                    "201-500"
+                ],
+                [
+                    "Pur Deal",
+                    "0",
+                    "2024-08-02 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    "Blu Deal",
+                    "0",
+                    "2024-08-02 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "Mid-Market",
+                    "201-500"
+                ],
+                [
+                    "Rat Deal",
+                    "0",
+                    "2024-06-12 00:00:00",
+                    "2024-08-11 00:00:00",
+                    "",
+                    "Existingbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Expansion",
+                    "Mid-Market",
+                    "501-1000"
+                ],
+                [
+                    "Chi Deal",
+                    "0",
+                    "2022-09-22 00:00:00",
+                    "2024-08-12 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Outbound",
+                    "SMB",
+                    "1-20"
+                ],
+                [
+                    "HRS Deal",
+                    "0",
+                    "2023-04-28 00:00:00",
+                    "2024-08-28 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Inbound",
+                    "Mid-Market",
+                    "201-500"
+                ],
+                [
+                    "EOS Deal",
+                    "0",
+                    "2024-03-21 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Outbound",
+                    "Mid-Market",
+                    "2501-5000"
+                ],
+                [
+                    "Cor Deal",
+                    "0",
+                    "2024-04-01 00:00:00",
+                    "2024-08-01 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Events",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Ava Deal",
+                    "0",
+                    "2024-04-20 00:00:00",
+                    "2024-08-30 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Outbound",
+                    "SMB",
+                    "201-500"
+                ],
+                [
+                    "Nav Deal",
+                    "0",
+                    "2024-06-03 00:00:00",
+                    "2024-08-02 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "Healthtech",
+                    "Partnerships",
+                    "Enterprise",
+                    "0-50"
+                ],
+                [
+                    "Sot Deal",
+                    "0",
+                    "2024-06-05 00:00:00",
+                    "2024-08-04 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "BDR + Partnerships",
+                    "SMB",
+                    "1-20"
+                ],
+                [
+                    "Sym Deal",
+                    "0",
+                    "2024-06-06 00:00:00",
+                    "2024-08-05 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Referral",
+                    "SMB",
+                    "5000+"
+                ],
+                [
+                    "Iqi Deal",
+                    "0",
+                    "2024-06-07 00:00:00",
+                    "2024-08-15 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Cir Deal",
+                    "0",
+                    "2024-06-10 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    "51-100"
+                ],
+                [
+                    "Pic Deal",
+                    "0",
+                    "2024-06-14 00:00:00",
+                    "2024-08-13 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Partnerships",
+                    "SMB",
+                    "101-200"
+                ],
+                [
+                    "101 Deal",
+                    "0",
+                    "2024-06-18 00:00:00",
+                    "2024-08-17 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Outbound",
+                    "SMB",
+                    ""
+                ],
+                [
+                    "Vab Deal",
+                    "0",
+                    "2024-06-21 00:00:00",
+                    "2024-08-20 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Outbound",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Nav Deal",
+                    "0",
+                    "2024-06-24 00:00:00",
+                    "2024-08-23 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Outbound",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Nin Deal",
+                    "0",
+                    "2024-06-25 00:00:00",
+                    "2024-08-24 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Inbound",
+                    "Enterprise",
+                    "1001-2500"
+                ],
+                [
+                    "Dex Deal",
+                    "0",
+                    "2024-06-26 00:00:00",
+                    "2024-08-25 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "Miscellaneous",
+                    "Partnerships",
+                    "SMB",
+                    ""
+                ],
+                [
+                    "Ori Deal",
+                    "0",
+                    "2024-06-26 00:00:00",
+                    "2024-08-25 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "Miscellaneous",
+                    "Partnerships",
+                    "SMB",
+                    "2501-5000"
+                ],
+                [
+                    "Gri Deal",
+                    "0",
+                    "2024-06-26 00:00:00",
+                    "2024-08-25 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Partnerships",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Hun Deal",
+                    "0",
+                    "2024-06-26 00:00:00",
+                    "2024-08-25 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "India - APAC",
+                    "SaaS",
+                    "Partnerships",
+                    "SMB",
+                    "51-100"
+                ],
+                [
+                    "Cat Deal",
+                    "0",
+                    "2024-07-08 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Ads",
+                    "SMB",
+                    ""
+                ],
+                [
+                    "Hyp Deal",
+                    "0",
+                    "2024-07-16 00:00:00",
+                    "2024-08-30 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Ads",
+                    "SMB",
+                    ""
+                ],
+                [
+                    "Blu Deal",
+                    "0",
+                    "2024-07-23 00:00:00",
+                    "2024-08-30 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Ads",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "App Deal",
+                    "0",
+                    "2024-07-25 00:00:00",
+                    "2024-08-29 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Ads",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Vis Deal",
+                    "0",
+                    "2024-07-29 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Uni Deal",
+                    "0",
+                    "2024-07-31 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    ""
+                ],
+                [
+                    "Spo Deal",
+                    "0",
+                    "2024-08-01 00:00:00",
+                    "2024-08-30 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Referral",
+                    "Mid-Market",
+                    "201-500"
+                ],
+                [
+                    "Cat Deal",
+                    "0",
+                    "2024-08-08 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Ads",
+                    "SMB",
+                    ""
+                ],
+                [
+                    "Kai Deal",
+                    "0",
+                    "2024-08-08 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Tax Deal",
+                    "0",
+                    "2024-08-09 00:00:00",
+                    "2024-08-16 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "SaaS",
+                    "Ads",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "eTA Deal",
+                    "0",
+                    "2024-08-10 00:00:00",
+                    "2024-08-19 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "All Deal",
+                    "0",
+                    "2024-08-12 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Ads",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Hyp Deal",
+                    "0",
+                    "2024-08-16 00:00:00",
+                    "2024-08-30 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Ads",
+                    "SMB",
+                    ""
+                ],
+                [
+                    "Rap Deal",
+                    "0",
+                    "2024-08-19 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Ads",
+                    "Mid-Market",
+                    "51-100"
+                ],
+                [
+                    "boa Deal",
+                    "0",
+                    "2024-08-19 00:00:00",
+                    "2024-08-30 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Ads",
+                    "SMB",
+                    ""
+                ],
+                [
+                    "Blu Deal",
+                    "0",
+                    "2024-08-23 00:00:00",
+                    "2024-08-30 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Ads",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "App Deal",
+                    "0",
+                    "2024-08-25 00:00:00",
+                    "2024-08-29 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Ads",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Vis Deal",
+                    "0",
+                    "2024-08-29 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    "0-50"
+                ],
+                [
+                    "Uni Deal",
+                    "0",
+                    "2024-08-31 00:00:00",
+                    "2024-08-31 00:00:00",
+                    "",
+                    "Newbusiness",
+                    "NA - EU",
+                    "",
+                    "Inbound",
+                    "SMB",
+                    ""
+                ]
+            ],
+            "visualId": "visual49"
+        }
+    ],
+    "Slicer": [
+        {
+            "Id": "e5115bcc946ba3260af8",
+            "Title": "Company Region",
+            "Options": [
+                "India - APAC",
+                "NA - EU",
+                ""
+            ],
+            "TableName": "Subscription Build Up (2)",
+            "ColumnName": "Regions",
+            "visualId": "visual6"
+        },
+        {
+            "Id": "5d4dfa9e03d87636c43c",
+            "Title": "Month Slicer",
+            "Options": [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December",
+                ""
+            ],
+            "TableName": "Dates",
+            "ColumnName": "MonthName",
+            "visualId": "visual7"
+        },
+        {
+            "Id": "5f94721fbe0d6ecf7e98",
+            "Title": "Year Slicer",
+            "Options": [
+                "2021",
+                "2022",
+                "2023",
+                "2024",
+                ""
+            ],
+            "TableName": "Dates",
+            "ColumnName": "Year",
+            "visualId": "visual8"
+        }
+    ],
+    "AdvancedSlicer": []
+}
