@@ -29,6 +29,13 @@ jobs:
       
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Install Playwright and browsers
+        run: |
+          source venv/bin/activate
+          pip install playwright
+          playwright install  # This command installs the necessary browsers
+
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
