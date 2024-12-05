@@ -37,11 +37,13 @@ jobs:
       - name: Verify Playwright Installation
         run: |
           source venv/bin/activate
-          playwright install --with-deps  # Reinstall to ensure browsers are present
-          playwright list-browsers  # List installed browsers
-
-            # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
-
+          python -c "
+          from playwright.sync_api import sync_playwright
+          with sync_playwright() as p:
+              browser = p.chromium.launch()
+              print('Chromium browser launched successfully')
+              browser.close()
+          "
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
 
