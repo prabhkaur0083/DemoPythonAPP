@@ -58,7 +58,7 @@ jobs:
         run: |
           source venv/bin/activate
           pip install playwright
-          playwright install --with-deps  # This installs the necessary browsers with dependencies
+          playwright install  # This installs the necessary browsers with dependencies
 
       - name: Verify Playwright Installation
         run: |
