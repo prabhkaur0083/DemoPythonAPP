@@ -66,6 +66,7 @@ jobs:
         
       # Step 7: Verify Playwright installation
       - name: Verify Playwright Installation
+      
         run: |
           source venv/bin/activate
           python -c "
