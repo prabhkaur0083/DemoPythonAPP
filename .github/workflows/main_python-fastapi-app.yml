@@ -63,9 +63,7 @@ jobs:
         run: |
           source venv/bin/activate
           playwright install
-        env:
-          PLAYWRIGHT_BROWSERS_PATH: 0  # Ensures browsers are accessible
-
+        
       # Step 7: Verify Playwright installation
       - name: Verify Playwright Installation
         run: |
