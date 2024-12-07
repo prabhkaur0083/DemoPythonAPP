@@ -11,28 +11,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the code
       - uses: actions/checkout@v4
 
-      # Step 2: Set up Python version
       - name: Set up Python version
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      # Step 3: Create and start virtual environment
       - name: Create and start virtual environment
         run: |
           python -m venv venv
           source venv/bin/activate
       
-      # Step 4: Install dependencies
       - name: Install dependencies
         run: |
           source venv/bin/activate
           pip install -r requirements.txt
 
-      # Step 5: Install system dependencies for Playwright
       - name: Install system dependencies
         run: |
           sudo apt-get update
@@ -58,15 +53,14 @@ jobs:
               libgtk-3-0 \
               xdg-utils
 
-      # Step 5: Install Playwright browsers
-      - name: Install Playwright Browsers
+
+      - name: Install Playwright and browsers
         run: |
           source venv/bin/activate
-          playwright install
-        
-      # Step 7: Verify Playwright installation
+          pip install playwright
+          playwright install  # This installs the necessary browsers with dependencies
+
       - name: Verify Playwright Installation
-      
         run: |
           source venv/bin/activate
           python -c "
@@ -76,12 +70,9 @@ jobs:
               print('Chromium browser launched successfully')
               browser.close()
           "
-
-      # Step 8: Zip artifact for deployment
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
 
-      # Step 9: Upload artifact for deployment jobs
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v4
         with:
@@ -97,24 +88,27 @@ jobs:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
-      id-token: write  # This is required for requesting the JWT
+      id-token: write # This is required for requesting the JWT
 
     steps:
-      # Step 10: Download artifact from the build job
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
           name: python-app
 
-      # Step 11: Unzip artifact for deployment
       - name: Unzip artifact for deployment
         run: unzip release.zip
 
-      # Step 12: Login to Azure
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_B121F084855B4ABAB5562EF46A03228B }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_BAF52A642C534FB48642E16312C66990 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_F6950385D97449FD8043A052CBC620BF }}
 
+      - name: 'Deploy to Azure Web App'
+        uses: azure/webapps-deploy@v3
+        id: deploy-to-webapp
+        with:
+          app-name: 'python-fastapi-app'
+          slot-name: 'Production'
