@@ -26,6 +26,7 @@ jobs:
       - name: Install dependencies
         run: |
           source venv/bin/activate
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Install system dependencies
@@ -54,21 +55,15 @@ jobs:
               xdg-utils
 
 
-      - name: Install Playwright and browsers
-        run: |
-          source venv/bin/activate
-          playwright install
+      - name: Ensure browsers are installed
+        run: python -m playwright install --with-deps
 
-      - name: Verify Playwright Installation
-        run: |
-          source venv/bin/activate
-          python -c "
-          from playwright.sync_api import sync_playwright
-          with sync_playwright() as p:
-              browser = p.chromium.launch()
-              print('Chromium browser launched successfully')
-              browser.close()
-          "
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: playwright-traces
+          path: test-results/
+
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
 
