@@ -22,15 +22,19 @@ jobs:
         run: |
           python -m venv venv
           source venv/bin/activate
-      
-      - name: Install dependencies
-        run: pip install -r requirements.txt
 
-      - name: Install Playwright
+      - name: Install Python dependencies
         run: |
-          python -m pip install playwright
-          playwright install
-          
+          source venv/bin/activate
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Playwright dependencies
+        run: |
+          source venv/bin/activate
+          playwright install-deps
+          PLAYWRIGHT_BROWSERS_PATH=/root/.cache/ms-playwright playwright install
+
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
 
@@ -49,7 +53,7 @@ jobs:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
-      id-token: write # This is required for requesting the JWT
+      id-token: write
 
     steps:
       - name: Download artifact from build job
@@ -74,5 +78,5 @@ jobs:
           app-name: 'python-fastapi-app'
           slot-name: 'Production'
           app-settings: |
-            PLAYWRIGHT_BROWSERS_PATH=/home/site/wwwroot/.local/lib/playwright-browsers
+            PLAYWRIGHT_BROWSERS_PATH=/root/.cache/ms-playwright
             PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
