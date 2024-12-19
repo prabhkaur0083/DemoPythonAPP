@@ -30,10 +30,12 @@ jobs:
           pip install -r requirements.txt
 
       - name: Install Playwright dependencies
+        env:
+          PLAYWRIGHT_BROWSERS_PATH: ./playwright-cache
         run: |
           source venv/bin/activate
           playwright install-deps
-          PLAYWRIGHT_BROWSERS_PATH=/root/.cache/ms-playwright playwright install
+          playwright install
 
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
@@ -78,5 +80,5 @@ jobs:
           app-name: 'python-fastapi-app'
           slot-name: 'Production'
           app-settings: |
-            PLAYWRIGHT_BROWSERS_PATH=/root/.cache/ms-playwright
+            PLAYWRIGHT_BROWSERS_PATH=/home/site/wwwroot/playwright-cache
             PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
