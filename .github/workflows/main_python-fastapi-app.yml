@@ -29,16 +29,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Install Playwright dependencies
+      - name: Install Playwright browsers
         env:
-          PLAYWRIGHT_BROWSERS_PATH: ./playwright-cache
+          PLAYWRIGHT_BROWSERS_PATH: ./playwright-browsers
         run: |
           source venv/bin/activate
           playwright install-deps
           playwright install
 
       - name: Zip artifact for deployment
-        run: zip release.zip ./* -r
+        run: |
+          zip -r release.zip ./*
 
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v4
@@ -73,12 +74,12 @@ jobs:
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_BAF52A642C534FB48642E16312C66990 }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_F6950385D97449FD8043A052CBC620BF }}
 
-      - name: 'Deploy to Azure Web App'
+      - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
           app-name: 'python-fastapi-app'
           slot-name: 'Production'
           app-settings: |
-            PLAYWRIGHT_BROWSERS_PATH=/home/site/wwwroot/playwright-cache
+            PLAYWRIGHT_BROWSERS_PATH=/home/site/wwwroot/playwright-browsers
             PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
