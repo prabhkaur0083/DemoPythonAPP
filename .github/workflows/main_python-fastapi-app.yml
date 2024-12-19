@@ -23,18 +23,15 @@ jobs:
         run: |
           python -m venv venv
           source venv/bin/activate
-        displayName: 'Set up virtual environment'
 
       - name: Install Python Dependencies
         run: |
           source venv/bin/activate
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-        displayName: 'Install dependencies'
 
       - name: Create Playwright Cache Directory
         run: mkdir -p /home/runner/.cache/ms-playwright
-        displayName: 'Create Playwright cache directory'
 
       - name: Cache Playwright Browsers
         uses: actions/cache@v3
@@ -50,13 +47,11 @@ jobs:
           npx playwright install --with-deps
         env:
           PLAYWRIGHT_BROWSERS_PATH: /home/runner/.cache/ms-playwright
-        displayName: 'Install Playwright browsers'
 
       - name: Package Application for Deployment
         run: |
           zip -r release.zip ./*
           echo "Packaging completed."
-        displayName: 'Zip artifacts'
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
