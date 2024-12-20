@@ -28,10 +28,7 @@ jobs:
           source venv/bin/activate
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          
-          # Ensure Playwright is fully installed
-          pip install playwright
-          playwright install-deps
+          python -m playwright install --with-deps
           playwright install chromium firefox webkit
           
       - name: Zip artifact for deployment
