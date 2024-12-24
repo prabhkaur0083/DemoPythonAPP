@@ -35,11 +35,15 @@ jobs:
           libxcomposite1 libxdamage1 libxext6 libxfixes3 libxrandr2 libgbm1 \
           libpango-1.0-0 libcairo2 libasound2t64
       
-      - name: Install dependencies
-        run: pip install --no-cache-dir -r requirements.txt
-        
-      - name: Install Playwright browser
-        run: playwright install chromium
+      - name: Install Python dependencies
+        run: |
+          source venv/bin/activate
+          pip install --no-cache-dir -r requirements.txt
+
+      - name: Install Playwright browsers
+        run: |
+          source venv/bin/activate
+          playwright install chromium
 
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
