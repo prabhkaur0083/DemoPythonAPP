@@ -17,7 +17,7 @@ def start():
 
     scheduler.add_job(
         send_mail_page,
-        trigger=CronTrigger(day="20", hour="17", minute="30"),
+        trigger=CronTrigger(day="20", hour="18", minute="10"),
         id="send_mail_page",
         replace_existing=True,
     )
