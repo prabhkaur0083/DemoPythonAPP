@@ -35,7 +35,7 @@ jobs:
 
       - name: Run migrations
         run: |
-          source antenv/bin/activate
+          source venv/bin/activate
           python manage.py migrate
 
       - name: Collect static files
