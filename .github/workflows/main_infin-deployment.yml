@@ -42,7 +42,7 @@ jobs:
         env:
           DJANGO_SETTINGS_MODULE: TaskAutomation.settings  # Update with your settings module
         run: |
-          source antenv/bin/activate
+          source venv/bin/activate
           python manage.py collectstatic --noinput
 
       - name: Zip artifact for deployment
